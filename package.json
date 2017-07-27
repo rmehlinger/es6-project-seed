@@ -1,12 +1,12 @@
 {
-  "name": "bobtail-deep-cell",
+  "name": "<NAME>",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/bobtail-dev/bobtail-deep-cell#readme",
+  "homepage": "https://github.com/bobtail-dev/<NAME>#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobtail-dev/bobtail-deep-cell.git"
+    "url": "git+https://github.com/bobtail-dev/<NAME>.git"
   },
   "keywords": [
     "bobtail",
@@ -14,9 +14,9 @@
     "FRP"
   ],
   "author": "Richard Mehlinger",
-  "license": "MIT",
+  "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/bobtail-dev/bobtail-deep-cell/issues"
+    "url": "https://github.com/bobtail-dev/<NAME>/issues"
   },
   "scripts": {
     "build": "npm run clean && npm run babel && npm run minify",
@@ -34,7 +34,7 @@
     "jasmine-core": "^2.5.2",
     "jquery": "^3.2.1",
     "typescript": "^2.1.6",
-    "uglify-es": "^3.0.23"
+    "uglify-es": "^3.0.26"
   },
   "dependencies": {
     "underscore": "^1.8.3"
